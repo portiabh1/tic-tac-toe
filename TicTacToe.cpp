@@ -18,7 +18,7 @@ void DisplayBoard(string Board[3][3]){
     for(int j = 0; j < 3; j++){
       cout << Board[i][j] << "|" << endl;
     }
-    cout << "__" << endl;
+    cout << "__" << std::endl;
   }
 }
 
@@ -35,4 +35,10 @@ string PlaceMarker(String[][] location, bool marker)
     }
   }
 }
+
+string[][] GePlayerChoice(string Board[3][3]){
+  string[][] choice = [""][""]
+  std::cout << "Where fo you want to play? " << std::endl;
+  std::cin >> choice >> std::endl;
+  return choice;
 }
