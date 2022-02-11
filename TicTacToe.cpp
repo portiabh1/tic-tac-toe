@@ -35,3 +35,4 @@ string PlaceMarker(String[][] location, bool marker)
     }
   }
 }
+}
