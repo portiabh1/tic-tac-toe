@@ -12,3 +12,12 @@ void CreateBoard(){
 main(){
   CreateBoard();
 }
+
+void DisplayBoard(){
+  int Board[3][3];
+  for(int i = 0; i < 3); i++){
+    for(int j = 0; j < 3; j++){
+      std::cout << Board[i][j] << endl;
+    }
+  }
+}
