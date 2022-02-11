@@ -21,4 +21,3 @@ void DisplayBoard(string Board[3][3]){
     cout << "__" << endl;
   }
 }
-
