@@ -1,0 +1,47 @@
+(base) Portias-MacBook-Pro:PE4 portiabhattacharjee$ make
+g++ -std=c++17 TicTacToe.cpp -o tictactoe
+(base) Portias-MacBook-Pro:PE4 portiabhattacharjee$ ./tictactoe
+ | | |
+ | | |
+ | | |
+What is your chosen square (1-9 going from left to right, top to bottom)?4
+
+ | | |
+X| | |
+ | | |
+What is your chosen square (1-9 going from left to right, top to bottom)?2
+
+ |O| |
+X| | |
+ | | |
+What is your chosen square (1-9 going from left to right, top to bottom)?1
+
+X|O| |
+X| | |
+ | | |
+What is your chosen square (1-9 going from left to right, top to bottom)?5
+
+X|O| |
+X|O| |
+ | | |
+What is your chosen square (1-9 going from left to right, top to bottom)?8
+
+X|O| |
+X|O| |
+ |X| |
+What is your chosen square (1-9 going from left to right, top to bottom)?7
+
+X|O| |
+X|O| |
+O|X| |
+What is your chosen square (1-9 going from left to right, top to bottom)?3
+
+X|O|X|
+X|O| |
+O|X| |
+What is your chosen square (1-9 going from left to right, top to bottom)?6
+
+X|O|X|
+X|O|O|
+O|X| |
+What is your chosen square (1-9 going from left to right, top to bottom)?9
